@@ -1,3 +1,6 @@
+require 'pry'
 def square_array(array)
-  # your code here
+  sq_array = array.each do {|x|  x*x}
+#binding pry
+  #sq_array.push(array.each {|x| print x})
 end
