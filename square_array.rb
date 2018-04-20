@@ -1,6 +1,7 @@
 require 'pry'
 def square_array(array)
-  array.each do |i|
+  sq_array = array.each do |i|
     i ** 2
   end
+  sq_array
 end
